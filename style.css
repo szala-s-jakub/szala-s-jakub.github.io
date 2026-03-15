@@ -5,7 +5,6 @@
     font-family: Arial, sans-serif;
 }
 
-/* HEADER */
 
 header{
     display:flex;
@@ -27,7 +26,6 @@ nav a:hover{
     color:#00bcd4;
 }
 
-/* HERO */
 
 .hero{
     height:60vh;
@@ -53,7 +51,6 @@ nav a:hover{
     padding:10px 20px;
     border:none;
     background:white;
-    color:#333;
     cursor:pointer;
     font-size:16px;
     border-radius:5px;
@@ -63,7 +60,6 @@ nav a:hover{
     background:#eee;
 }
 
-/* KARTY */
 
 .cards{
     display:flex;
@@ -85,7 +81,9 @@ nav a:hover{
 .card h3{
     margin-bottom:10px;
 }
-
+.card:hover{
+    transform(scale(1.05));
+}
 /* FOOTER */
 
 footer{
