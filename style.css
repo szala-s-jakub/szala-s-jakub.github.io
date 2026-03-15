@@ -28,7 +28,7 @@ nav a:hover{
 
 
 .hero{
-    height:85vh;
+    height:75vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
