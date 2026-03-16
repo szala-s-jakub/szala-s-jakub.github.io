@@ -52,9 +52,7 @@ nav a:hover{
   padding: 5px;
   width: 30%;
 }
-glowna img:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+
 
 .footer{
     text-align:center;
