@@ -59,7 +59,13 @@ nav a:hover{
 .glowna button:hover{
     background:#eee;
 }
-
+.glowna img{
+  border-radius: 40px;
+  padding: 5px;
+}
+glowna img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 .footer{
     text-align:center;
