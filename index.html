@@ -2,6 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strona Jakub Szala</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,24 +12,45 @@
 <header>
     <h1>Strona Jakub Szala</h1>
     <nav>
-        <a href="tictatoe.html">Strona główna</a>
-        <a href="#">O mnie</a>
-        <a href="#">Kontakt</a>
+        <a onclick="showSection('home')">Home</a>
+        <a onclick="showSection('about')">O mnie</a>
+        <a onclick="showSection('projects')">Projekty</a>
     </nav>
 </header>
 
-<main class="glowna">
-    <h2>Witaj na mojej stronie</h2>
-    <p>Poniższa strona to prosty projekt HTML5 + CSS3 z przedmiotu Programowanie w Internecie</p>
-    <img src="zdj_psa.jpg" alt="Zdjęcie mojego psa" ><br>
-    <p>Zdjęcie mojego psa</p>
+<main>
+
+    <section id="home" class="active">
+        <div class="hero">
+            <h2>Witaj!</h2>
+            <p>Projekt strony na zajęcia Programowanie w Internecie</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Krótki opis użytkownika.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projekty</h2>
+        <div class="cards">
+
+            <div class="card">Projekt 1</div>
+            <div class="card">Projekt 2</div>
+            <div class="card">Projekt 3</div>
+
+        </div>
+    </section>
+
+
+
 </main>
 
-
-
-<footer class="footer">
+<footer>
     <p>Strona Jakub Szala Programowanie w internecie 2026</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
