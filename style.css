@@ -39,7 +39,10 @@ section {
 section.active {
     display: block;
 }
-
+img {
+    max-width: 30%;
+    height: auto;
+}
 
 .hero {
     height: 60vh;
